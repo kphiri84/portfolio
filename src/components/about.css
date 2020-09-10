@@ -14,7 +14,7 @@
 }
 
 .me {
-    width: 70%;
+    
     font-size: 20px;
     text-align: center;
 }
@@ -26,5 +26,6 @@ hr {
 
 .columns{
     display: flex;
+    justify-content: center;
 }
 

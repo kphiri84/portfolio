@@ -9,55 +9,67 @@ import mysql from '../assets/mysql.png';
 import git from '../assets/git.png';
 import github from '../assets/github.png';
 import illustrator from '../assets/illustrator.png';
-import scrum from '../assets/scrum.svg';
+import scrum from '../assets/scrum.png';
 import wordpress from '../assets/wordpress.png';
 import bootstrap from '../assets/boot.png';
 
 const Competences = () => {
 	return (
-		<div className="comp">
-			<h1>COMPETENCES</h1>
+		<div className="comp" id="competences">
+			<h1 className="compTitle">COMPETENCES</h1>
 			<hr className="compHr" />
 			<div className="firstRow">
 				<div className="cards">
 					<img className="logos" src={html} alt="logo html" />
+					<p className="compName">HTML</p>
 				</div>
 				<div className="cards">
 					<img className="logos" src={css} alt="logo css" />
+					<p className="compName">CSS</p>
 				</div>
 				<div className="cards">
 					<img className="logos" src={bootstrap} alt="logo bootstrap" />
+					<p className="compName">BOOTSTRAP</p>
 				</div>
 				<div className="cards">
 					<img className="logos" src={js} alt="logo js" />
+					<p className="compName">JAVASCRIPT</p>
 				</div>
 			</div>
 			<div className="secondRow">
 				<div className="cards">
 					<img className="logos" src={react} alt="logo react" />
+					<p className="compName">REACTJS</p>
 				</div>
 				<div className="cards">
-					<img className="logos" src={node} alt="logo node" />
+					<img className="logos logoNode" src={node} alt="logo node" />
+					<p className="compName">NODEJS</p>
 				</div>
 				<div className="cards">
-					<img className="logos" src={mysql} alt="logo mysql" />
+					<img className="logos logoMysql" src={mysql} alt="logo mysql" />
+					<p className="compName">MYSQL</p>
 				</div>
 				<div className="cards">
 					<img className="logos" src={wordpress} alt="logo wordpress" />
+					<p className="compName">WORDPRESS</p>
 				</div>
 			</div>
 			<div className="thirdRow">
 				<div className="cards">
 					<img className="logos" src={git} alt="logo git" />
+					<p className="compName">GIT</p>
 				</div>
 				<div className="cards">
 					<img className="logos" src={github} alt="logo github" />
+					<p className="compName">GITHUB</p>
 				</div>
 				<div className="cards">
 					<img className="logos" src={illustrator} alt="logo illustrator" />
+					<p className="compName">ILLUSTRATOR</p>
 				</div>
 				<div className="cards">
-					<img className="logos" src={scrum} alt="logo scrum" />
+					<img className="logos logoScrum" src={scrum} alt="logo scrum" />
+					<p className="compName">METHODE AGILE</p>
 				</div>
 			</div>
 		</div>

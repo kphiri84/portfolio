@@ -4,7 +4,7 @@ import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 const Contact = (props) => {
 	return (
-		<Form className="contact">
+		<Form className="contact" id="contact">
 			<h1 className="contactTitle">CONTACT</h1>
 			<hr className="contactHr"/>
 			<p className="lead">Pour toute demande ou suggestions n'hésitez pas à me contacter !</p>

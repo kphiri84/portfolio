@@ -44,8 +44,8 @@ const AnimBorder = () => {
 		c0,4.471,0"/>
 		</g>
 		</svg>
-				<h1>Kenny PHIRI</h1>
-                <h2>Développeur web et mobile JavaScript FullStack</h2>
+				<h2 className="nameMe">Kenny PHIRI</h2>
+                <h1 className="job">Développeur web et mobile JavaScript FullStack</h1>
 			</div>
 
 			<div>

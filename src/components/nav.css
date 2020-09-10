@@ -1,18 +1,36 @@
 .navbar {
-    position: sticky !important;
+    position: fixed !important;
     height: 100px !important;
     box-shadow: 0 2px 4px 0px rgba(0,0,0,0.2);
     z-index: 400;
+    width: 100%;
 }
-
+.nav-link:hover{
+    color: rgb(64, 46, 114) !important;
+}
 .navbar-light .navbar-nav .nav-link {
     color: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%) !important;
 }
 
-.navbar-light .navbar-nav .nav-link::selection {
+li::-moz-selection {
     color: red !important;
 }
 
 .navbar-light .navbar-text{
     color: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%) !important;
+}
+
+.navbar-brand{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+}
+
+.kp{
+    font-weight: 900;
+}
+
+li{
+    font-weight: 900;
+    text-transform: uppercase;
 }

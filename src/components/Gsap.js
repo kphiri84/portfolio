@@ -89,7 +89,7 @@ const Gsap = () => {
         TweenMax.set('svg', { visibility: 'visible' });
 	},[])
 	return (
-		<div className="gsap" id="test">
+		<div className="gsap">
 			
 			<svg
                 className="animSvg"
@@ -109,7 +109,7 @@ const Gsap = () => {
 					<clipPath id="laptopBaseMask">
 						<path
 							class="laptopBaseMask"
-							fill="#FFFAEB"
+							fill="#dddddd"
 							d="M487 409v15.5c0 3.8-3.2 7.5-7 7.5H120c-3.8 0-7-3.7-7-7.5V409h374z"
 						/>
 					</clipPath>
@@ -129,7 +129,7 @@ const Gsap = () => {
 						<path
                             ref={(el) => {h = el}}
 							class="monitorStand"
-							fill="#FFFAEB"
+							fill="#dddddd"
 							d="M386.3 512H374l-20.7-57h-106L226 512h-12.3c-2.6 0-4.7 1.9-4.7 4.5s2.1 4.5 4.7 4.5h172.7c2.6 0 4.7-1.9 4.7-4.5s-2.2-4.5-4.8-4.5z"
 						/>
 					</g>
@@ -177,19 +177,19 @@ const Gsap = () => {
 					<path
                         ref={(el) => {c = el}}
 						class="monitorBottom"
-						fill="#FFFAEB"
+						fill="#dddddd"
 						d="M573 403v39c0 7.1-6.1 13-13.3 13h-520c-7.2 0-12.7-5.9-12.7-13v-39h546z"
 					/>
 					<circle ref={(el) => {g = el}} class="monitorLogo" fill="#A4ACBB" cx="300" cy="426" r="10" />
 				</g>
 				<g ref={(el) => {x = el}} class="laptopGroup">
-					<path ref={(el) => {k = el}} class="laptopEdgeLeft" fill="#FFFAEB" d="M310 401.5H131.5v-226c0-3.9 3.2-7 7-7H310" />
-					<path ref={(el) => {l = el}} class="laptopEdgeRight" fill="#FFFAEB" d="M290 168.5h171.5c3.8 0 7 3.1 7 7v226H290" />
+					<path ref={(el) => {k = el}} class="laptopEdgeLeft" fill="#dddddd" d="M310 401.5H131.5v-226c0-3.9 3.2-7 7-7H310" />
+					<path ref={(el) => {l = el}} class="laptopEdgeRight" fill="#dddddd" d="M290 168.5h171.5c3.8 0 7 3.1 7 7v226H290" />
 					<g class="laptopBaseGroup" clip-path="url(#laptopBaseMask)">
 						<path
                             ref={(el) => {n = el}}
 							class="laptopBase"
-							fill="#FFFAEB"
+							fill="#dddddd"
 							d="M487 409v15.5c0 3.8-3.2 7.5-7 7.5H120c-3.8 0-7-3.7-7-7.5V409h374z"
 						/>
 					</g>
@@ -230,7 +230,7 @@ const Gsap = () => {
 				<g ref={(el) => {r = el}} class="phoneGroup" opacity="0">
 					<path
 						class="phoneEdge"
-						fill="#FFFAEB"
+						fill="#dddddd"
 						d="M255.2 371.4V198.6c0-3.2 2.7-5.9 5.9-5.9H339c3.2 0 5.9 2.7 5.9 5.9v172.9c0 3.2-2.7 5.9-5.9 5.9h-77.9c-3.3-.1-5.9-2.7-5.9-6z"
 					/>
 					<circle ref={(el) => {z = el}} class="phoneButton" fill="#9AA3B2" cx="300" cy="363.1" r="6" />
@@ -277,7 +277,7 @@ const Gsap = () => {
 				<g ref={(el) => {b = el}} class="tabletGroup">
 					<path
 						class="tabletEdge"
-						fill="#FFFAEB"
+						fill="#dddddd"
 						d="M198.5 404.5v-239c0-7.7 6.3-14 14-14h175c7.7 0 14 6.3 14 14v239c0 7.7-6.3 14-14 14h-175c-7.7 0-14-6.3-14-14z"
 					/>
 					<path

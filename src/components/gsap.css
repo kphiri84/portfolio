@@ -3,14 +3,15 @@
 .animSvg{
     display: flex;
     justify-content: center;
-    width:60%;
-    height:60%;
+    width:20%;
+    height:20%;
     visibility: hidden;
     margin-left: 18%;
 }
 
 .gsap{
-    background: linear-gradient(60deg, rgba(46, 46, 48, 0.1) 0%, rgba(58, 62, 63, 0.1) 100%);
+    display: flex;
+    
 }
 
 .col-md-6{

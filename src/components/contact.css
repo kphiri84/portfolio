@@ -12,6 +12,8 @@
 .contactTitle{
     text-align: center;
     font-weight: 900;
+    font-size: 30px !important;
+    padding: 25px !important;
 }
 .contactHr {
     width: 50px;
@@ -20,6 +22,8 @@
 .lead{
     color: white;
     text-align: center;
+    font-size: 25px !important;
+    font-weight: 900;
 }
 .form-group{
     max-width: 80%;

@@ -6,15 +6,15 @@
 
 .presentation {
     font-weight: bolder;
+    padding: 25px !important;
 }
-
+ 
 .name {
     font-size: 30px;
     text-align: center;
 }
 
 .me {
-    
     font-size: 20px;
     text-align: center;
 }

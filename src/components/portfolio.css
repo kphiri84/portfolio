@@ -1,25 +1,6 @@
 .portfolio {
 	text-align: center;
-}
-
-.images {
-	height: 250px;
-	width: 400px;
-	filter: grayscale(0%);
-	-webkit-filter: grayscale(0%);
-	-moz-filter: grayscale(0%);
-	-ms-filter: grayscale(0%);
-	-o-filter: grayscale(0%);
-}
-
-.images:hover {
-	height: 250px;
-	width: 400px;
-	filter: grayscale(100%);
-	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	-ms-filter: grayscale(100%);
-	-o-filter: grayscale(100%);
+	padding: 25px !important;
 }
 
 .container {
@@ -36,7 +17,6 @@
 	width: 325px;
 	height: 250px;
 	margin: 20px 0;
-	perspective: 1000px;
 	overflow: hidden;
 	transform-style: preserve-3d;
 }

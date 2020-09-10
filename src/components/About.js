@@ -5,14 +5,12 @@ import { Col } from 'reactstrap'
 
 const About = () => {
 	return (
-		<div className="about" id="test">
+		<div className="about" id="about">
 			<h1 className="presentation">PRESENTATION</h1>
 			<hr />
 			<div className="columns">
-				<Col md='6'>
-					<Gsap />
-				</Col>
-				<Col Col md='6'>
+				
+				<Col Col md='12'>
 					<p className="name">Hello ! Moi c'est Kenny</p>
 					<p className="me">
 						Jeune développeur autodidacte et passionné depuis de nombreuses années, je prépare actuellement une
@@ -20,6 +18,7 @@ const About = () => {
 						Je développe en JavaScript, ce qui me permet de développer des applications web et mobiles en
 						responsive
 					</p>
+					<Gsap />
 				</Col>
 			</div>
 		</div>

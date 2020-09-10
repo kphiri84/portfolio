@@ -1,0 +1,18 @@
+.navbar {
+    position: sticky !important;
+    height: 100px !important;
+    box-shadow: 0 2px 4px 0px rgba(0,0,0,0.2);
+    z-index: 400;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%) !important;
+}
+
+.navbar-light .navbar-nav .nav-link::selection {
+    color: red !important;
+}
+
+.navbar-light .navbar-text{
+    color: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%) !important;
+}

@@ -1,24 +1,26 @@
 .navbar {
-    position: sticky !important;
-    top: 0;
+    position: fixed !important;
     height: 100px !important;
-    box-shadow: 0 2px 4px 0px rgba(0,0,0,0.2);
     z-index: 400;
     width: 100%;
+    transition: .5s;
+    background-color: transparent !important;
+    color: white;
+}
+.navbar.active {
+    position: fixed !important;
+    height: 100px !important;
+    z-index: 400;
+    width: 100%;
+    transition: .5s;
+    background-color: #333333 !important;
+    color: white;
+}
+.navbar a{
+    color: white;
 }
 .nav-link:hover{
-    color: rgb(64, 46, 114) !important;
-}
-.navbar-light .navbar-nav .nav-link {
-    color: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%) !important;
-}
-
-li::-moz-selection {
-    color: red !important;
-}
-
-.navbar-light .navbar-text{
-    color: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%) !important;
+    color: gold !important;
 }
 
 .navbar-brand{
@@ -30,7 +32,9 @@ li::-moz-selection {
 .kp{
     font-weight: 900;
 }
-
+.navbar-brand:hover{
+    color: white;
+}
 li{
     font-weight: 900;
     text-transform: uppercase;

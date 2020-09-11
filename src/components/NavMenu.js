@@ -1,16 +1,23 @@
 import React, { useState } from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, Nav, NavItem } from 'reactstrap';
 import './nav.css';
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const NavMenu = () => {
 	const [ isOpen, setIsOpen ] = useState(false);
-
+	const [navbar, setNavbar] = useState(false)
 	const toggle = () => setIsOpen(!isOpen);
 
+	const changeBackground = () => {
+		window.scrollY >= 80 ?
+		setNavbar(true) : setNavbar(false)
+	}
+
+	window.addEventListener('scroll', changeBackground)
+
 	return (
-		<Navbar className="navbar" color="white" light expand="md">
-			<NavbarBrand href="/">
+		<Navbar className={navbar ? "navbar active" : "navbar"} expand="md">
+			<AnchorLink className="navbar-brand" href="#home">
 				<svg
 					version="1.1"
 					id="Layer_1"
@@ -26,17 +33,17 @@ const NavMenu = () => {
 				>
 					<g>
 						<path
-							fill="#333333"
+							fill="#ffffff"
 							d="M141.472,325.651c0,5.834,3.89,9.14,15.169,12.057c0.195-8.168,0.389-16.918,0.583-24.891
 		c-5.445,0-9.14,1.555-11.472,3.695C143.417,318.456,141.472,321.761,141.472,325.651z"
 						/>
 						<path
-							fill="#333333"
+							fill="#ffffff"
 							d="M162.863,368.433c-0.194,8.945-0.583,18.084-0.778,27.031c5.445-0.195,9.724-2.14,11.667-3.695
 		c2.334-2.139,3.89-5.445,3.89-9.529C177.643,375.628,174.142,371.155,162.863,368.433z"
 						/>
 						<path
-							fill="#333333"
+							fill="#ffffff"
 							d="M302.474,127.905c-129.351,0-234.21,104.86-234.21,234.211c0,129.351,104.86,234.21,234.21,234.21
 		c129.352,0,234.211-104.859,234.211-234.21C536.685,232.765,431.825,127.905,302.474,127.905z M192.228,399.742
 		c-6.807,6.029-15.169,10.502-30.531,11.668c-0.194,6.418-0.194,12.252-0.583,18.668c-4.862,0.584-9.529,0.973-14.391,1.166
@@ -70,21 +77,21 @@ const NavMenu = () => {
 					</g>
 				</svg>
 				<p className="kp">Kenny PHIRI</p>
-			</NavbarBrand>
+			</AnchorLink>
 			<NavbarToggler onClick={toggle} />
 			<Collapse isOpen={isOpen} navbar>
 				<Nav className="mr-auto" navbar>
 					<NavItem>
-						<AnchorLink className="nav-link" offset='100' href="#about">Présentation</AnchorLink>
+						<AnchorLink className="nav-link active" offset='100' href="#about">Présentation</AnchorLink>
 					</NavItem>
 					<NavItem>
-						<AnchorLink className="nav-link" offset='100' href="#competences">Compétences</AnchorLink>
+						<AnchorLink className="nav-link active" offset='100' href="#competences">Compétences</AnchorLink>
 					</NavItem>
 					<NavItem>
-						<AnchorLink className="nav-link" offset='100' href="#portfolio">Portfolio</AnchorLink>
+						<AnchorLink className="nav-link active" offset='100' href="#portfolio">Portfolio</AnchorLink>
 					</NavItem>
 					<NavItem>
-						<AnchorLink className="nav-link" offset='100' href="#contact">Contact</AnchorLink>
+						<AnchorLink className="nav-link active" offset='100' href="#contact">Contact</AnchorLink>
 					</NavItem>
 				</Nav>
 			</Collapse>

@@ -1,19 +1,40 @@
 import React from 'react';
 import './anim.css';
 import './competences.css';
+import ScrollButton from './ScrollButton';
+import { Icon } from 'semantic-ui-react' 
 
 const AnimBorder = () => {
 	return (
 		<div class="header">
 			<div class="inner-header flex">
-			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="90px" height="90px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xmlSpace="preserve">
-<g>
-	<path fill="#FFFFFF" d="M141.472,325.651c0,5.834,3.89,9.14,15.169,12.057c0.195-8.168,0.389-16.918,0.583-24.891
-		c-5.445,0-9.14,1.555-11.472,3.695C143.417,318.456,141.472,321.761,141.472,325.651z"/>
-	<path fill="#FFFFFF" d="M162.863,368.433c-0.194,8.945-0.583,18.084-0.778,27.031c5.445-0.195,9.724-2.14,11.667-3.695
-		c2.334-2.139,3.89-5.445,3.89-9.529C177.643,375.628,174.142,371.155,162.863,368.433z"/>
-	<path fill="#FFFFFF" d="M302.474,127.905c-129.351,0-234.21,104.86-234.21,234.211c0,129.351,104.86,234.21,234.21,234.21
+				<svg
+					version="1.1"
+					id="Layer_1"
+					xmlns="http://www.w3.org/2000/svg"
+					xmlnsXlink="http://www.w3.org/1999/xlink"
+					x="0px"
+					y="0px"
+					width="90px"
+					height="90px"
+					viewBox="0 0 612 792"
+					enable-background="new 0 0 612 792"
+					xmlSpace="preserve"
+				>
+					<g>
+						<path
+							fill="#FFFFFF"
+							d="M141.472,325.651c0,5.834,3.89,9.14,15.169,12.057c0.195-8.168,0.389-16.918,0.583-24.891
+		c-5.445,0-9.14,1.555-11.472,3.695C143.417,318.456,141.472,321.761,141.472,325.651z"
+						/>
+						<path
+							fill="#FFFFFF"
+							d="M162.863,368.433c-0.194,8.945-0.583,18.084-0.778,27.031c5.445-0.195,9.724-2.14,11.667-3.695
+		c2.334-2.139,3.89-5.445,3.89-9.529C177.643,375.628,174.142,371.155,162.863,368.433z"
+						/>
+						<path
+							fill="#FFFFFF"
+							d="M302.474,127.905c-129.351,0-234.21,104.86-234.21,234.211c0,129.351,104.86,234.21,234.21,234.21
 		c129.352,0,234.211-104.859,234.211-234.21C536.685,232.765,431.825,127.905,302.474,127.905z M192.228,399.742
 		c-6.807,6.029-15.169,10.502-30.531,11.668c-0.194,6.418-0.194,12.252-0.583,18.668c-4.862,0.584-9.529,0.973-14.391,1.166
 		c0.389-6.416,0.389-12.639,0.584-19.25c-12.834,0-26.253-3.113-34.032-7.586c0.195-4.082,6.029-16.528,10.891-20.223
@@ -41,13 +62,20 @@ const AnimBorder = () => {
 		c0-15.75-3.889-24.695-3.889-37.142c0-12.057,8.751-19.251,17.891-21.002v-1.555c-9.724-2.14-17.891-7.779-17.891-19.835
 		c-0.195-10.307,4.084-20.225,4.084-33.448c-0.195-10.89-2.14-18.279-21.392-18.279c-0.389-4.473-0.583-9.529-0.193-14.002
 		c30.725,0,47.253,11.085,47.253,34.615c0.195,14.196-5.249,23.918-5.249,32.67c0,7,0.972,12.446,16.141,12.446
-		c0,4.471,0"/>
-		</g>
-		</svg>
+		c0,4.471,0"
+						/>
+					</g>
+				</svg>
 				<h2 className="nameMe">Kenny PHIRI</h2>
-                <h1 className="job">Développeur web et mobile JavaScript FullStack</h1>
+				<h1 className="job">Développeur web et mobile JavaScript FullStack</h1>
+				<div className="socialmedia">
+					<a className="medialogo" href="https://www.linkedin.com/in/kenny-phiri/"><Icon name='linkedin' size="big"/></a>
+					<a className="medialogo" href="https://github.com/kphiri84"><Icon name='github' size="big"/></a>
+				</div>
 			</div>
-
+			<div className="buttonScroll">
+				<ScrollButton />
+			</div>
 			<div>
 				<svg
 					class="waves"

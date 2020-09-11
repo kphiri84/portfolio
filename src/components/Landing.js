@@ -8,7 +8,7 @@ import Contact from './Contact';
 
 const Landing = (props) => {
 	return (
-		<div>
+		<div id="home">
 			<NavMenu />
             <AnimBorder />
             <About />

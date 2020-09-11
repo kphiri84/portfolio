@@ -12,10 +12,18 @@ body {
 .header { 
   position: relative;
   text-align: center;
-  background-image: url('../assets/web2.jpg');
+  background-image: url('../assets/web4.jpg');
   background-repeat: no-repeat;
   color: white;
   background-size: cover;
+}
+.buttonScroll{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.medialogo{
+  color: white;
 }
 .logo {
   width: 50px;
@@ -25,10 +33,20 @@ body {
   vertical-align: middle;
 }
 .inner-header {
-  height: 65vh;
+  height: 550px;
   width: 100%;
   margin: 0;
-  padding: 0;
+  padding: 100px;
+}
+.socialmedia{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+i.big.icon, i.big.icons{
+  font-size: 45px !important;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .flex {
   /*Flexbox for containers*/

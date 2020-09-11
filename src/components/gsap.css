@@ -6,12 +6,11 @@
     width:20%;
     height:20%;
     visibility: hidden;
-    margin-left: 18%;
 }
 
 .gsap{
     display: flex;
-    
+    justify-content: center;
 }
 
 .col-md-6{

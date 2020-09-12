@@ -83,7 +83,10 @@ const Contact = () => {
 					onChange= { (e) => setMessage(e.target.value) }
 				 />
 			</FormGroup>
-			<Button>Envoyer</Button>
+			<FormGroup className="buttonGroup">
+				<Button>Envoyer</Button>
+			</FormGroup>
+			
 		</Form>
 	);
 };

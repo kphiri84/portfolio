@@ -5,6 +5,7 @@ import About from './About';
 import Portfolio from './Portfolio';
 import Competences from './Competences';
 import Contact from './Contact';
+import Footer from './Footer';
 
 const Landing = (props) => {
 	return (
@@ -15,6 +16,7 @@ const Landing = (props) => {
             <Competences />
             <Portfolio />
             <Contact />
+            <Footer />
 		</div>
 	);
 };

@@ -10,7 +10,7 @@ const About = () => {
 			<hr />
 			<div className="columns">
 				
-				<Col Col md='12'>
+				<Col md='12'>
 					<p className="name">Hello ! Moi c'est Kenny</p>
 					<p className="me">
 						Jeune développeur autodidacte et passionné depuis de nombreuses années, je prépare actuellement une

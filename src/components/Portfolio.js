@@ -51,6 +51,17 @@ const Portfolio = () => {
 						<a href="https://marche-rose-combourg2020.netlify.app/">Lien</a>
 					</div>
 				</div>
+				<div className="box">
+					<div className="imgBx">
+						<img className="images" src="https://zupimages.net/up/20/37/bkoo.png" alt="projet1"/>
+					</div>
+					<div className="contentBx">
+						<h2>CHAT APP</h2>
+						<p>Développement d'un chat en temps réel</p>
+						<p>JavaScript/ReactJS/NodeJS/Socket.io</p>
+						<a href="https://kenny-chat.netlify.app/">Lien</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	);

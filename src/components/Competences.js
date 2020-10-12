@@ -17,7 +17,6 @@ const Competences = () => {
 	return (
 		<div className="comp" id="competences">
 			<h1 className="compTitle">COMPETENCES</h1>
-			<hr className="compHr" />
 			<div className="firstRow">
 				<div className="cards">
 					<img className="logos" src={html} alt="logo html" />

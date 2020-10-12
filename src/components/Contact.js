@@ -39,9 +39,11 @@ const Contact = () => {
 	  }
 
 	return (
-		<Form onSubmit = {handleSubmit} className="contact" id="contact">
+		<div className="contact">
+			<div className="title">
 			<h1 className="contactTitle">CONTACT</h1>
-			<hr className="contactHr"/>
+			</div>
+		<Form onSubmit = {handleSubmit} id="contact">
 			<p className="lead">Pour toute demande ou suggestions n'hésitez pas à me contacter !</p>
 			<FormGroup>
 				<Label for="examplePassword">Nom/Prénom</Label>
@@ -88,6 +90,7 @@ const Contact = () => {
 			</FormGroup>
 			
 		</Form>
+		</div>
 	);
 };
 

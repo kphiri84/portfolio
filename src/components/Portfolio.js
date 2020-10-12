@@ -4,8 +4,9 @@ import './portfolio.css';
 const Portfolio = () => {
 	return ( 
 		<div id="portfolio">
-			<h1 className="portfolio">PORTFOLIO</h1>
-			<hr />
+			<div className="title">
+			<h1 className="portfolio">MES REALISATIONS</h1>
+			</div>
 			<div className="container">
 				<div className="box">
 					<div className="imgBx">
@@ -58,8 +59,19 @@ const Portfolio = () => {
 					<div className="contentBx">
 						<h2>CHAT APP</h2>
 						<p>Développement d'un chat en temps réel</p>
-						<p>JavaScript/ReactJS/NodeJS/Socket.io</p>
+						<p>ReactJS/NodeJS/Express/Socket.io</p>
 						<a href="https://kenny-chat.netlify.app/">Lien</a>
+					</div>
+				</div>
+				<div className="box">
+					<div className="imgBx">
+						<img className="images" src="https://zupimages.net/up/20/37/f5mj.png" alt="projet1"/>
+					</div>
+					<div className="contentBx">
+						<h2>Wild Circus</h2>
+						<p>Développement d'un site sur le thème du cirque avec authentification et réservation en ligne</p>
+						<p>ReactJS/NodeJS/Express/JWT/MySql/Sequelize</p>
+						<a href="https://wild-circus-app.netlify.app/">Lien</a>
 					</div>
 				</div>
 			</div>

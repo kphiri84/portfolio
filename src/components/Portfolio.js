@@ -46,7 +46,7 @@ const Portfolio = () => {
 						<img className="images" src="https://zupimages.net/up/20/37/klq2.png" alt="projet1" />
 					</div>
 					<div className="contentBx">
-						<h2>Marche Rose Combourg</h2>
+						<h2>MARCHE ROSE COMBOURG</h2>
 						<p>Création d'un site à l'occasion de la marche rose à Combourg</p>
 						<p>JavaScript/ReactJS</p>
 						<a href="https://marche-rose-combourg2020.netlify.app/">Lien</a>
@@ -68,7 +68,7 @@ const Portfolio = () => {
 						<img className="images" src="https://zupimages.net/up/20/37/f5mj.png" alt="projet1"/>
 					</div>
 					<div className="contentBx">
-						<h2>Wild Circus</h2>
+						<h2>WILD CIRCUS</h2>
 						<p>Développement d'un site sur le thème du cirque avec authentification et réservation en ligne</p>
 						<p>ReactJS/NodeJS/Express/JWT/MySql/Sequelize</p>
 						<a href="https://wild-circus-app.netlify.app/">Lien</a>

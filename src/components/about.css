@@ -41,6 +41,7 @@
 	margin-top: 25px;
 	font-size: 16px;
 	text-align: justify;
+	width: 90%;
 }
 
 hr {
@@ -51,10 +52,12 @@ hr {
 .columns {
 	display: flex;
 	justify-content: center;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-	.kennys {
+	.image {
 		display: none;
     }
     .presentation {
@@ -75,8 +78,26 @@ hr {
         background-color: gray;
         border-radius: 5px;
         color: white;
-        width: 90vw;
+        width: 80vw;
         height: 70px;
         padding: 10px 30px !important;
-    }
+	} 
+	.me {
+		margin-top: 25px;
+		font-size: 16px;
+		text-align: justify;
+		width: 100%;
+	}
 }
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.name {
+        font-size: 15px;
+        text-align: left;
+        background-color: gray;
+        border-radius: 5px;
+        color: white;
+        width: 50vw;
+        height: 70px;
+        padding: 10px 30px !important;
+	} 
+	}

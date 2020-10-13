@@ -15,7 +15,8 @@ const About = () => {
 						Développeur web fullstack autodidacte de 28 ans basé sur Avignon, j'ai suivi une formation de
 						développeur web à la Wild Code School. <br />
 						Le développement web est une de mes passions que je cultive au quotidien. <br />
-						Je suis passionné par l'UX-UI design, les créations web et toutes les dernières technologies. <br />
+						Je suis passionné par l'UX-UI design, les créations web et toutes les dernières technologies.{' '}
+						<br />
 						J'aime expérimenter, créer et relever de nouveaux défis. <br />
 						Si vous êtes intéressé par mon profil ou que vous voulez en savoir plus sur moi, n'hésitez pas à
 						me contacter.
@@ -23,8 +24,7 @@ const About = () => {
 					<Gsap />
 				</Col>
 				<Col className="image" md="4">
-					<img className="kennys" src={kenny} alt=""/>
-					{/*  */}
+					<img className="kennys" src={kenny} alt="" />
 				</Col>
 			</div>
 		</div>

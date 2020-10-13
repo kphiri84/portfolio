@@ -33,8 +33,8 @@
 	border-radius: 5px;
 	color: white;
 	width: 550px;
-	height: 70px;
 	padding: 10px 30px !important;
+	margin-top: -10px;
 }
 
 .me {
@@ -97,7 +97,6 @@ hr {
         border-radius: 5px;
         color: white;
         width: 50vw;
-        height: 70px;
         padding: 10px 30px !important;
 	} 
 	}

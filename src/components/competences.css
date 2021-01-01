@@ -13,25 +13,6 @@
 	height: 120vh;
 }
 
-.tsparticles-canvas-el {
-	height: 105vh !important;
-}
-
-.dropLeft {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: white;
-}
-
-.dropLeft:hover {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: #ef981c;
-	background-color: white;
-}
-
 .compTitle {
 	font-family: 'Raleway';
 	text-align: center !important;
@@ -60,7 +41,7 @@
 	justify-content: center;
 	justify-content: space-around;
 	align-items: center;
-	margin: 20px;
+	margin: 10px;
 	background-color: rgba(255, 255, 255, 0.9);
 	width: 130px;
 	height: 130px;

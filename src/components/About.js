@@ -37,7 +37,7 @@ const About = () => {
 						développeur web à la Wild Code School. Le développement web est une de mes passions que je
 						cultive au quotidien. Je suis passionné par l'UX-UI design, les créations web, la manipulation
 						de bases de données et toutes les dernières technologies. J'aime expérimenter, créer et relever
-						de nouveaux défis. Si vous êtes intéressé par mon profil ou que vous voulez en savoir plus sur
+						de nouveaux défis. <br /> Si vous êtes intéressé par mon profil ou que vous voulez en savoir plus sur
 						moi, n'hésitez pas à me contacter.
 					</p>
 				</Col>

@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Contact from './components/Contact';
 import Competences from './components/Competences';
-import Portfolio from './components/Carousel';
+import Portfolio from './components/Portfolio';
 import About from './components/About'
 import Landing from './components/Landing';
 

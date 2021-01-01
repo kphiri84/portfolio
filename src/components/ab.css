@@ -1,0 +1,162 @@
+.ab {
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(60deg, rgb(46, 46, 48) 0%, rgb(58, 62, 63) 100%);
+	height: 91vh;
+}
+.image {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 20px;
+	justify-content: flex-end;
+}
+.competences {
+	font-family: 'Raleway';
+	text-align: left !important;
+	font-weight: 900;
+	padding: 10px 40px !important;
+	color: white;
+	background-color: #ef981c;
+	border-radius: 4px;
+	font-size: 40px;
+	display: inline-block;
+	margin-top: 25px !important;
+	margin-left: 3%;
+}
+
+.kennys {
+	height: 85%;
+	width: auto;
+}
+
+.image2 img {
+	position: absolute;
+	transform: translateX(-50%);
+	bottom: 0;
+	left: 50%;
+	transition: bottom 1s, left 1s;
+}
+
+.image2:hover .pattern2 {
+	bottom: 40px;
+}
+
+.image2:hover .kennys2 {
+	left: 55%;
+}
+
+.pattern {
+	height: 80%;
+	width: auto;
+}
+
+.kennys2 {
+	margin-left: 30%;
+	height: 100%;
+	width: auto;
+}
+
+.pattern2 {
+	height: 55%;
+	width: auto;
+}
+
+.name {
+	font-size: 20px;
+	text-align: left;
+	background-color: gray;
+	border-radius: 5px;
+	color: white;
+	width: 550px;
+	padding: 10px 30px !important;
+	margin-top: -10px;
+}
+
+.comp {
+	margin-top: 25px;
+	font-size: 16px;
+	text-align: justify;
+	width: 90%;
+	color: white;
+}
+
+hr {
+	width: 50px;
+	border-top: 1px solid black !important;
+}
+
+.columns {
+	display: flex;
+	justify-content: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 90vh;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.ab {
+		display: flex;
+		flex-direction: column;
+		background: linear-gradient(60deg, rgb(46, 46, 48) 0%, rgb(58, 62, 63) 100%);
+		height: 55vh;
+	}
+	.image {
+		display: none;
+	}
+	.image2 {
+		display: none;
+	}
+
+	.presentation {
+		font-family: 'Raleway';
+		text-align: left !important;
+		font-weight: 900;
+		padding: 10px 30px !important;
+		color: white;
+		background-color: #ef981c;
+		border-radius: 4px;
+		font-size: 20px;
+		display: inline-block;
+		margin-top: 25px !important;
+	}
+	.name {
+		font-size: 15px;
+		text-align: left;
+		background-color: gray;
+		border-radius: 5px;
+		color: white;
+		width: 80vw;
+		height: 70px;
+		padding: 10px 30px !important;
+	}
+	.me {
+		margin-top: 25px;
+		font-size: 16px;
+		text-align: justify;
+		width: 100%;
+	}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	.ab {
+		display: flex;
+		flex-direction: column;
+		background: linear-gradient(60deg, rgb(46, 46, 48) 0%, rgb(58, 62, 63) 100%);
+		height: 45vh;
+	}
+	.name {
+		font-size: 15px;
+		text-align: left;
+		background-color: gray;
+		border-radius: 5px;
+		color: white;
+		width: 50vw;
+		padding: 10px 30px !important;
+	}
+
+	.image {
+		display: none;
+	}
+	.image2 {
+		display: none;
+	}
+}
